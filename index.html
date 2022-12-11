@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoS</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="header">Daily Todo</h1>
+        <div class="list">
+            <div class="hiddenData">
+                <!-- Add New to-do -->
+                <div class="data-side">
+                    <div class="task">
+                        <form action="">
+                            <input required type="text" class="address" placeholder="Enter Title">
+                            <input required type="text" class="status" placeholder="Enter Status">
+                         </form>
+                    </div>
+                </div>
+                <!-- Action Buttons -->
+                <div class="actionBtns">
+                    <button class="buttons" id="cancel">
+                        <img src="images/cancel.png">
+                    </button>
+                    <button class="buttons" id="store">
+                        <img src="images/store.png">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Add Button -->
+        <footer id="hideFooter">
+            <button class="buttons" id="vector">
+                <img src="images/add.png">
+            </button>
+        </footer>
+    </div>
+
+    <!-- JavaScript Source File -->
+    <script src="index.js"></script>
+</body>
+</html>
